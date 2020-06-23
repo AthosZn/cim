@@ -40,8 +40,6 @@ public class IndexController {
     @Autowired
     private CIMClient heartbeatClient ;
 
-
-
     @Autowired
     private RouteRequest routeRequest ;
 

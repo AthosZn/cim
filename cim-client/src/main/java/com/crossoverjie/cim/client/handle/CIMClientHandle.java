@@ -108,10 +108,6 @@ public class CIMClientHandle extends SimpleChannelInboundHandler<CIMResponseProt
             LOGGER.info(msg.getResMsg());
         }
 
-
-
-
-
     }
 
     /**

@@ -53,7 +53,7 @@ public class CIMServer {
 
         ServerBootstrap bootstrap = new ServerBootstrap()
                 .group(boss, work)
-                .channel(NioServerSocketChannel.class)
+                .channel(NioServerSocketChannel.class)//指定io模型
                 .localAddress(new InetSocketAddress(nettyPort))
                 //保持长连接
                 .childOption(ChannelOption.SO_KEEPALIVE, true)
